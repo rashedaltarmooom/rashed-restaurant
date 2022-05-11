@@ -2,6 +2,22 @@
   text-align: center;
 }
 
+.product-list{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:row;
+}
+
+.product-name{
+  margin: 30px;
+}
+
+.product-image{
+  width: 100px;
+  height: 100px;
+  border-radius: 1rem;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
